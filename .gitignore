@@ -1,0 +1,34 @@
+# Ide project files
+# Add your ide here
+/.vscode
+
+
+#
+# Just dont track binaries
+#
+/bin/*
+/bin/**/*
+!/bin/README.md
+
+
+# ensure not main file
+!/src/*.cpp
+
+
+#
+# Object files
+#
+*.o
+*/**/*.o
+
+
+#
+# Debian packages
+#
+*.deb
+*/**/*.deb
+package/git-sync/usr/bin/git-sync
+package/git-sync.deb
+package/git-sync/bin/
+package/git-sync/bin/**
+
